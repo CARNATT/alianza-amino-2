@@ -99,21 +99,90 @@ text-align:center;justify-content:center;display:flex;background:red;}
 background-position: right center;color: #fff;text-decoration: none;}
 .BOTON_A::selection {background: transparent;}
 
-.Btn_U {
-			text-decoration: none;
-			border: solid 2px #fff;
-			margin: 8px;padding: 2px 8px 2px 8px;
-			border-radius: 40px;
+.Btn_U {text-decoration: none;margin: 8px;padding: 2px 8px 2px 8px;
+			border-bottom-color: #fff;border-left-color: #fff;
+			border-right-color: #fff;border-top-color: #fff;
+			box-sizing: border-box;overflow: hidden;
+			white-space: normal;border-radius: 5px;}
 			
-}
+	
+	/*Flipaclip_En_Español*/
+			
+
 
 /* ------------- Todos los botones --------------- */
+/* -------------- TEXTO DE LAS CARTAS ------------- */
+#Fl {color: #D0D0D0;} /* TÍTULO flipa */
+#Sl {color: #000;}/* SUBTÍTULO */
+#Fll{color: #8080E0;}/* TÍTULO creat */
+#Sll{color: #905060;}/* SUBTÍTULO */
+#Flll {color: #CCCCCC;} /* TÍTULO flipa */
+#Slll {color: #fff;}/* SUBTÍTULO */
+.TEXT_COMP {max-width: 100%;max-height: 30px;overflow: auto;
+					 min-width: 100%;min-height: 40px;}
+.TEXT_COMP_EDIC {justify-content: center;}
+.Ocultool {display: none;}
+/* -------------- TEXTO DE LAS CARTAS ------------- */
+
+
+/* -------------- TEXTO DE LAS CARTAS ------------- */
+#Un {background: #90C0B0;color: #905060;
+	border-bottom-color: #90C0B0;border-left-color: #90C0B0;
+	border-right-color: #90C0B0;border-top-color: #90C0B0;
+	box-sizing: border-box;
+	border-radius: 5px;color: while;}/* boton Creative */
+
+.Unn {background: #ffffff;color: black;
+	border-bottom-color: #ffffff;border-left-color: #ffffff;
+	border-right-color: #ffffff;border-top-color: #ffffff;
+	box-sizing: border-box;overflow: hidden;white-space: normal;
+	border-radius: 5px;color: while;}/*Flipaclip_En_Español*/
+/* ----------------CARTAS--------------- */
+
+/*  */
+.btn_completo {display: flex;justify-content: space-around;}
+
+.I_STAFF {width: 300px;}
+#historia_Q {display: block;}
+#ESPERA {display: none;}
+#ESPERAA {display: none;}
+#ESPERAAA{display: none;}
+
+#soy_u:checked + #ESPERA {display: block;}
+#soy_d:checked + #ESPERAA {display: block;}
+#soy_t:checked + #ESPERAAA {display: block;}
+
+#soy_uu:checked + #ESPERA {display: block;}
+#soy_dd:checked + #ESPERAA {display: block;}
+#soy_tt:checked + #ESPERAAA {display: block;}
+
+#soy_uuu:checked + #ESPERA {display: block;}
+#soy_ddd:checked + #ESPERAA {display: block;}
+#soy_ttt:checked + #ESPERAAA {display: block;}
+
+/*  */
+/* -----+-+OCULTA------------ */
+#Oculto_Uno {
+width: 0px;
+
+background: red;overflow: hidden;
+  align-content: center;text-align: center;
+  justify-content: center;transition: width 4s;}
+
+}
 
 
 
 
+#Oculto_Dos {display: none;}
+#Oculto_Tres {display: none;}
+/* -----+-+OCULTA------------ */
 
-
+/* ------------MOSTRAR------------- */
+#Ocultar_A:checked + #Oculto_Uno  {width: 100%;overflow: hidden;;}
+#Ocultar_B:checked + #Oculto_Dos {display: block;}
+#Ocultar_C:checked + #Oculto_Tres {display: block;}
+/* ------------MOSTRAR------------- */
 
 
 
