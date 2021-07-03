@@ -1,5 +1,5 @@
 # alianza-amino-2
 Esta es la segunda version del proyecto de la Alianza-Amino.
 
-Este proyecto es para la pág de de amino de la Alianza-Amino
-De amino.
+Este es un proyecto creado con el objetivo de ser el reemplazo de la esta pág:
+1)-. https://carnatt.github.io/Alianza-Amino/
