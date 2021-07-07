@@ -38,7 +38,7 @@ header {background:#002d3c;text-align: left;color: #fff;display: none;}
 #Text_Secun_U {background: transparent; color: #000;}
 #Text_Secun_U::selection {background: transparent; color: #fff;}
 #Text_Princ_U::selection {background: transparent; color: #000;}
-#Text_Princ_U {display: flex; font-size: 2em;color: #D0D0D0;
+#Text_Princ_U {display: flex; font-size: 25px;color: #D0D0D0;
 				justify-content: center; margin: 0px;overflow: hidden;
 				white-space: normal;}
 				
@@ -48,7 +48,7 @@ header {background:#002d3c;text-align: left;color: #fff;display: none;}
 #Text_Secun_D {background: transparent; color: #905060;}
 #Text_Secun_D::selection {background: transparent; color: red;}
 #Text_Princ_D::selection {background: transparent; color: #000;}
-#Text_Princ_D {display: flex; font-size: 2em;color: #8080E0;
+#Text_Princ_D {display: flex; font-size: 25px;color: #8080E0;
 				justify-content: center; margin: 0px;overflow: hidden;
 				white-space: normal;}
 				
@@ -56,7 +56,7 @@ header {background:#002d3c;text-align: left;color: #fff;display: none;}
 #Text_Secun_T {background: transparent;color: #fff;}
 #Text_Secun_T::selection {background: transparent;color: #000;}
 #Text_Princ_T::selection {background: transparent; color: #000;}
-#Text_Princ_T {display: flex; font-size: 2em;color: #CCCCCC;
+#Text_Princ_T {display: flex; font-size: 25px;color: #CCCCCC;
 				justify-content: center; margin: 0px;overflow: hidden;
 				white-space: normal;}
 				
