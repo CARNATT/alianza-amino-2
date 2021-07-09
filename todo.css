@@ -289,6 +289,18 @@ background-position: right center;color: #fff;text-decoration: none;}
 			box-sizing: border-box;overflow: hidden;
 			white-space: normal;border-radius: 5px;}
 			
+			
+.Btn_D::selection {background: transparent;}
+.Btn_D {text-decoration: none;
+			margin: 10px;padding: 2px 8px 2px 8px;font-size: 110%;
+			border-bottom-color: #90C0B0;border-left-color: #90C0B0;
+			border-right-color: #90C0B0;border-top-color: #90C0B0;
+			box-sizing: border-box;overflow: hidden;
+			background: #90C0B0;color: #905060;
+			white-space: normal;border-radius: 5px;}
+			
+.Btn_D:hover {color: red;}
+			
 
 /* ------------- Todos los botones --------------- */
 
