@@ -15,15 +15,15 @@ html {scroll-behavior: smooth;}
 /* background: #002d3c; */
 
 .PRIMERA_CAPAS {padding: 30px 0px 25px 0px;}
-.SEGUNDA_CAPAS_U {margin: 10px; overflow: hidden;border-radius: 20px;
+#SEGUNDA_CAPAS_U {margin: 10px; overflow: hidden;border-radius: 20px;
 background: url('Flipaclip_Back.jpg')round;overflow: hidden;
 padding: 40px 0px 40px 0px;}
 
-.SEGUNDA_CAPAS_D {margin: 10px; overflow: hidden;border-radius: 20px;
+#SEGUNDA_CAPAS_D {margin: 10px; overflow: hidden;border-radius: 20px;
 background: url('Creative_Back.jpg')round; overflow: hidden;
 padding: 40px 0px 40px 0px;}
 
-.SEGUNDA_CAPAS_T {margin: 10px; overflow: hidden;border-radius: 20px;
+#SEGUNDA_CAPAS_T {margin: 10px; overflow: hidden;border-radius: 20px;
 background: url('Fondo_OC.png')round; overflow: hidden;
 padding: 40px 0px 40px 0px;}
 
@@ -105,17 +105,13 @@ text-align:center;justify-content:center;display:flex;}
 
 
 /* ------------- Todos los botones --------------- */
-.BOTON_A {text-decoration: none; color: #fff;cursor: pointer;
-				 border: solid 1px #fff; padding: 1px 4px 1px 4px;
-				 border-radius: 10px; margin: 5px;}
-.BOTON_A:hover {box-shadow: 0 0 20px #fff;border-radius: 10px;
-background-position: right center;color: #fff;text-decoration: none;}
-.BOTON_A::selection {background: transparent;}
+
 .Btn_U::selection {background: transparent;}
 .Btn_U {text-decoration: none;
 			margin: 10px;padding: 2px 8px 2px 8px;font-size: 110%;
 			border-bottom-color: #fff;border-left-color: #fff;
 			border-right-color: #fff;border-top-color: #fff;
+			background: #fff;
 			box-sizing: border-box;overflow: hidden;
 			white-space: normal;border-radius: 5px;}
 			
@@ -129,6 +125,16 @@ background-position: right center;color: #fff;text-decoration: none;}
 			white-space: normal;border-radius: 5px;}
 			
 .Btn_D:hover {color: red;}
+
+
+.BT_S {text-decoration: none;
+			margin: 10px;padding: 2px 8px 2px 8px;font-size: 110%;
+			border: solid 2px #fff; background: #fff;
+			
+			box-sizing: border-box;overflow: hidden;
+			white-space: normal;border-radius: 5px;}
+			
+
 			
 
 /* ------------- Todos los botones --------------- */
@@ -165,10 +171,7 @@ background-position: right center;color: #fff;text-decoration: none;}
 
 
 
-
-
-
-@media screen and (max-width: 1500px) and (min-width: 801px){
+@media screen and (max-width: 1920px) and (min-width: 801px){
 
 /* Archivo html-5 */
 body {background: #17224D; margin: 40px 0px;
@@ -185,29 +188,17 @@ html {scroll-behavior: smooth;}
 display: grid; width: 700px;overflow: hidden;white-space: normal;
 justify-content: center; align-content: center;}
 
-.SEGUNDA_CAPAS_U {overflow: hidden;border-radius: 20px;
+#SEGUNDA_CAPAS_U {overflow: hidden;border-radius: 20px;
 background: url('Flipaclip_Back.jpg')round;overflow: hidden;
+padding: 20px 10px;margin: 20px;}
 
-padding: 20px 10px;
-margin: 20px;
-
-}
-
-.SEGUNDA_CAPAS_D {overflow: hidden;border-radius: 20px;
+#SEGUNDA_CAPAS_D {overflow: hidden;border-radius: 20px;
 background: url('Creative_Back.jpg')round; overflow: hidden;
+padding: 20px 10px;margin: 20px;}
 
-padding: 20px 10px;
-margin: 20px;
-
-}
-
-.SEGUNDA_CAPAS_T {overflow: hidden;border-radius: 20px;
+#SEGUNDA_CAPAS_T {overflow: hidden;border-radius: 20px;
 background: url('Fondo_OC.png')round; overflow: hidden;
-
-padding: 20px 10px;
-margin: 20px;
-
-}
+padding: 20px 10px;margin: 20px;}
 
 
 /* Archivo html-5 */
@@ -275,12 +266,6 @@ text-align:center;justify-content:center;display:flex;}
 
 
 /* ------------- Todos los botones --------------- */
-.BOTON_A {text-decoration: none; color: #fff;cursor: pointer;
-				 border: solid 1px #fff; padding: 1px 4px 1px 4px;
-				 border-radius: 10px; margin: 5px;}
-.BOTON_A:hover {box-shadow: 0 0 20px #fff;border-radius: 10px;
-background-position: right center;color: #fff;text-decoration: none;}
-.BOTON_A::selection {background: transparent;}
 .Btn_U::selection {background: transparent;}
 .Btn_U {text-decoration: none;
 			margin: 10px;padding: 2px 8px 2px 8px;font-size: 160%;
